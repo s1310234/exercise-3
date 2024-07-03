@@ -3,12 +3,6 @@
 #include <time.h>
 
 int main() {
-
-    printf("Who are you?\n> ");
-    fgets(name, sizeof(name), stdin);
-
-    printf("Hello, %s!\n", name);
-
     srand(time(NULL));
     int heads = 0, tails = 0;
 
